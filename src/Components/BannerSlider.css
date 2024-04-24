@@ -1,0 +1,21 @@
+/* Customize the navigation buttons */
+.swiper-button-next, .swiper-button-prev {
+  
+    color: #f1f5f9; /* Text color */
+    padding: 10px; /* Padding to give more space around the icon */
+    transition: all 0.3s;
+  }
+  
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    color: black;
+  }
+  
+  /* Position the buttons so they remain on the slider */
+  .swiper-button-next {
+    right: 20px; /* Offset from the right */
+  }
+  
+  .swiper-button-prev {
+    left: 20px; /* Offset from the left */
+  }
+  

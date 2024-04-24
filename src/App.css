@@ -1,0 +1,53 @@
+.hero{
+width: 100%;
+height: 95vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("./Components/Assits/gettyimages-1439807599-640x640.jpg");
+}
+
+.navbar-scroll-bg {
+    background-color: rgba(0, 0, 0, 0.8); /* Scroll ke dauran background color */
+
+  }
+
+  .navbar {
+    transition: all 0.6s ease; /* Background color ke liye transition */
+  }
+
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Style the thumb and track */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.react-tabs__tab--selected {
+  background-color: #38bdf8 !important; /* Change this to your desired active tab color */
+  color: white !important ;
+  border: none !important;
+}
+
+.react-tabs__tab {
+color: #ccc; /* Change this to your desired unselected tab color */
+  
+}
+
+.read-more-container {
+  height: 40px; /* Yahan do lines ki height set karain */
+  overflow: hidden;
+  transition: height 0.5s; /* Smooth transition */
+}
+
+.read-more-container:hover {
+  height: 100px; /* Jab hover ho, toh is height tak expand karen */
+}
+
+
